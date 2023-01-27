@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Roboto:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400&display=swap");
+
+:root {
+  --font-color-white: rgb(244, 244, 244);
+  --font-color-black: rgb(28, 28, 28);
+  --font-color-hover: rgb(55, 55, 55);
+  --font-color-light-gray:rgb(244, 244, 244);
+  --font-color-gray:rgb(212, 212, 212);
+  --font-color-grayU:rgb(166, 166, 166);
+  --font-color-more-light-gray:rgb(221, 221, 221);
+  --font-color-light-black:rgb(22, 22, 22);
+  --font-color-yello: #FAE100;
+  --font-family-noto: "Noto Sans KR", sans-serif;
+  --font-family-dancing: "Dancing Script", cursive;
+}
+
+.filebox .upload-name {
+  height: 40px;
+  padding: 0 10px;
+  margin: 20px 0px 20px 0px;
+  vertical-align: middle;
+  border: 1px solid #dddddd;
+  color: var(--font-color-gray);
+}
+.filebox label {
+  padding: 9px 20px;
+  color: #fff;
+  vertical-align: middle;
+  background-color: var(--font-color-black);
+  font-family: var(--font-family-noto);
+  cursor: pointer;
+}
+.filebox input[type="file"] {
+  position: absolute;
+  width: 0;
+  height: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+}
+
+.side_nav_menu{
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  top: 300px;
+  width: 90%;
+  height: 35%;
+  border-top: 2px solid #f7f7f7;
+}
+.side_nav_menu span {
+  color: var(--font-color-light-black);
+  font-weight: bold;
+  font-family: var(--font-family-noto);
+}
+

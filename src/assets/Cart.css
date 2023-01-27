@@ -1,0 +1,207 @@
+@import "./root.css";
+
+.Container{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    margin-top: 54px;
+}
+
+.List_Wrap{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.Title_Box{
+    display: flex;
+    width:80%;
+    margin: 24px 0px 24px 0px;
+}
+
+.Cart_Title{
+    font-family: var(--font-family-noto);
+    font-weight: bold;
+    font-size: 36px;
+}
+
+.is-boxed{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    height:50px;
+    font-size: 24px;
+    color: var(--font-color-gray);
+    font-family: var(--font-family-noto);
+    font-weight: bold;
+    border-top: 2px solid var(--font-color-gray);
+    cursor: pointer;
+}
+
+.is_active{
+    color: var(--font-color-black);
+}
+
+.tap_content{
+    width: 80%;
+    border-top: 2px solid var(--font-color-gray);
+}
+
+.tap_item_box{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 24px;
+}
+.tap_item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 0px 12px 0px;
+    border-bottom: 2px solid var(--font-color-gray);
+}
+
+.tap_img_box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+}
+.tap_text_box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+    font-family: var(--font-family-noto);
+}
+.tap_button_box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+}
+
+.tap_item img{
+    width: 150px;
+    height: 150px;
+}
+
+.tap_item button{
+    width:80px;
+    height: 30px;
+    margin-right: 10px;
+    border-radius: 4px;
+    border-style: none;
+    background-color: var(--font-color-black);
+    color: var(--font-color-white);
+    font-weight: bold;
+    font-family: var(--font-family-noto);
+    cursor: pointer;
+}
+.tap_item button:hover{
+    color: #ee0979;
+}
+
+.tap_active_box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    margin: 30px 0px 60px 0px;
+}
+
+.delete_button{
+    width:160px;
+    height: 50px;
+    margin-right: 10px;
+    border-radius: 4px;
+    border-style: none;
+    background-color: var(--font-color-black);
+    color: var(--font-color-white);
+    font-weight: bold;
+    font-family: var(--font-family-noto);
+    cursor: pointer;
+}
+.delete_button:hover{
+    color: #ee0979;
+}
+.buy_button{
+    width:160px;
+    height: 50px;
+    margin-right: 10px;
+    border-radius: 4px;
+    border-style: none;
+    background-color: var(--font-color-black);
+    color: var(--font-color-white);
+    font-weight: bold;
+    font-family: var(--font-family-noto);
+    cursor: pointer;
+}
+.buy_button:hover{
+    color: #ee0979;
+}
+
+/* // 우측 탭 */
+.tap_sub_item{
+    display: flex;
+    width: 100%;
+    margin-bottom: 24px;
+}
+
+.tab_no_item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 320px;
+}
+
+.tab_no_item span{
+    display: flex;
+    font-weight: bold;
+    font-family: var(--font-family-noto);
+}
+
+.col{
+    display: flex;
+}
+
+@media screen and (max-width: 1024px){
+    .tap_img_box{
+        width: 30%;
+    }
+    .tap_text_box{
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 930px){
+    .tap_img_box{
+        width: 40%;
+    }
+    .tap_text_box{
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .tap_item{
+        flex-direction: column;
+        line-height: 1.5;
+    }
+    .tap_text_box{
+        flex-direction: column;
+        width: 100%;
+    }
+    .tap_button_box{
+        width: 30%;
+    }
+}
+
+
